@@ -1,4 +1,4 @@
-/* Estilo del fondo degradado */
+
 body { 
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
     flex-direction: column;
 }
 
-/* Estilo del encabezado */
+
 header {
     background-color: #333;
     color: white;
@@ -17,7 +17,7 @@ header {
     text-align: center;
 }
 
-/* Estilo de la navegación */
+
 nav {
     background-color: #444;
     color: white;
@@ -41,7 +41,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Estilo principal */
+
 main {
     flex: 1;
     display: flex;
@@ -52,13 +52,13 @@ main {
     text-align: center;
 }
 
-/* Estilo del título */
+
 h2 {
     margin-bottom: 20px;
     color: #333;
 }
 
-/* Estilo del pie de página */
+
 footer {
     background-color: #333;
     color: white;
@@ -66,18 +66,18 @@ footer {
     padding: 1em 0;
 }
 
-/* Mejora en el espaciado */
+
 p {
     margin-bottom: 15px;
 }
 
-/* Imagen con estilo */
+
 img {
     border-radius: 10px;
     margin-top: 10px;
 }
 
-/* Espaciado para el pie de página */
+
 footer p {
     margin: 5px 0;
 }
