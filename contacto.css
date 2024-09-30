@@ -1,4 +1,33 @@
 
+nav {
+    background-color: #444; 
+    color: white;
+    padding: 1em; 
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px; 
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
 
 body {
     margin: 0;
@@ -17,6 +46,7 @@ body {
     max-width: 600px;
     padding: 20px;
     box-sizing: border-box;
+    margin-top: 600px; 
 }
 
 .formulario_de_contacto {
@@ -25,7 +55,6 @@ body {
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
-
 
 h2 {
     text-align: center;
@@ -49,7 +78,7 @@ form textarea,
 form select {
     width: 100%;
     padding: 10px;
-    margin-bottom: 15px; /* Se aumentó la separación entre campos */
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
@@ -98,31 +127,3 @@ button[type="submit"]:hover {
 }
 
 
-
-nav {
-    background-color: #444; /* Color de fondo del menú */
-    color: white; /* Color del texto */
-    padding: 1em; /* Espaciado interno */
-}
-
-nav ul {
-    list-style-type: none; /* Sin viñetas */
-    margin: 0; /* Sin márgenes */
-    padding: 0; /* Sin relleno */
-    text-align: center; /* Centrar el texto */
-}
-
-nav ul li {
-    display: inline; /* Mostrar los elementos en línea */
-    margin-right: 15px; /* Espaciado entre elementos */
-}
-
-nav ul li a {
-    color: white; /* Color de los enlaces */
-    text-decoration: none; /* Sin subrayado */
-    font-weight: bold; /* Texto en negrita */
-}
-
-nav ul li a:hover {
-    text-decoration: underline; /* Subrayar al pasar el mouse */
-}
