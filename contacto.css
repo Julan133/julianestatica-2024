@@ -12,14 +12,14 @@ body {
 }
 
 
-.container {
+.contenedor {
     width: 100%;
     max-width: 600px;
     padding: 20px;
     box-sizing: border-box;
 }
 
-.contact-form {
+.formulario_de_contacto {
     background-color: white;
     padding: 40px;
     border-radius: 10px;
@@ -60,7 +60,7 @@ form textarea {
     resize: vertical;
 }
 
-/* Estilo de fieldsets */
+
 form fieldset {
     border: none;
     margin-bottom: 20px;
@@ -95,4 +95,34 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #0099dd;
+}
+
+
+
+nav {
+    background-color: #444; /* Color de fondo del menú */
+    color: white; /* Color del texto */
+    padding: 1em; /* Espaciado interno */
+}
+
+nav ul {
+    list-style-type: none; /* Sin viñetas */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+    text-align: center; /* Centrar el texto */
+}
+
+nav ul li {
+    display: inline; /* Mostrar los elementos en línea */
+    margin-right: 15px; /* Espaciado entre elementos */
+}
+
+nav ul li a {
+    color: white; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Texto en negrita */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
 }
