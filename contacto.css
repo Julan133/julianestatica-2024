@@ -11,7 +11,7 @@ body {
     align-items: center;
 }
 
-/* Contenedor del formulario */
+
 .container {
     width: 100%;
     max-width: 600px;
@@ -26,7 +26,7 @@ body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-/* Títulos */
+
 h2 {
     text-align: center;
     color: #333;
@@ -34,7 +34,7 @@ h2 {
     font-size: 24px;
 }
 
-/* Campos del formulario */
+
 form label {
     font-weight: bold;
     color: #333;
@@ -75,13 +75,13 @@ form fieldset label {
     margin-right: 15px;
 }
 
-/* Espaciado para los checkboxes y radio buttons */
+
 form input[type="radio"],
 form input[type="checkbox"] {
     margin-right: 5px;
 }
 
-/* Botón de envío */
+
 button[type="submit"] {
     width: 100%;
     padding: 12px;
