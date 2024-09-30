@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="contact-form">
+        <h2>Formulario de Contacto</h2>
+        <form>
+            <label for="nombre">Nombre (requerido):</label>
+            <input type="text" id="nombre" maxlength="20" required>
+            
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" maxlength="20">
+            
+            <label for="email">Email (requerido):</label>
+            <input type="email" id="email" required>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" placeholder="Ingrese su teléfono">
+            
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" min="16" max="120">
+            
+            <label for="direccion">Dirección:</label>
+            <textarea id="direccion"></textarea>
+            
+            <label for="provincia">Provincia:</label>
+            <input type="text" id="provincia" list="provincias">
+            <datalist id="provincias">
+                <option value="Chubut">
+                <option value="Neuquén">
+                <option value="Río Negro">
+                <option value="Santa Cruz">
+                <option value="Tierra del Fuego">
+            </datalist>
+
+            <label for="codigoPostal">Código Postal:</label>
+            <input type="text" id="codigoPostal" pattern="[A-Za-z]\d{4}[A-Za-z]{3}">
+
+            <fieldset>
+                <legend>Método preferido de contacto:</legend>
+                <label><input type="radio" name="contacto" value="email" checked> Correo electrónico</label>
+                <label><input type="radio" name="contacto" value="postal"> Correo postal</label>
+                <label><input type="radio" name="contacto" value="telefono"> Teléfono</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Tipo de suscripción:</legend>
+                <label><input type="checkbox" value="noticias"> Noticias</label>
+                <label><input type="checkbox" value="promociones"> Promociones</label>
+                <label><input type="checkbox" value="alertas" checked> Alertas</label>
+                <label><input type="checkbox" value="eventos"> Eventos</label>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
