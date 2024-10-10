@@ -131,8 +131,8 @@ button[type="submit"]:hover {
 
 table {
     width: 100%;
-    max-width: 600px; /* Definimos el ancho máximo de la tabla */
-    margin: 0 auto; /* Centramos la tabla */
+    max-width: 600px; 
+    margin: 0 auto; 
     border-collapse: collapse;
     border: 1px solid #ccc;
 }
