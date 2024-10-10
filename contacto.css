@@ -38,6 +38,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: center; /* Centramos verticalmente */
+    align-items: center; /* Centramos horizontalmente */
 }
 
 
@@ -129,11 +131,9 @@ button[type="submit"]:hover {
 
 table {
     width: 100%;
+    max-width: 600px; /* Definimos el ancho máximo de la tabla */
+    margin: 0 auto; /* Centramos la tabla */
     border-collapse: collapse;
-    margin-top: 20px;
-}
-
-table, th, td {
     border: 1px solid #ccc;
 }
 
@@ -141,6 +141,7 @@ th, td {
     padding: 10px;
     text-align: left;
     font-size: 16px;
+    border: 1px solid #ccc;
 }
 
 th {
@@ -150,4 +151,10 @@ th {
 tbody tr:nth-child(even) {
     background-color: #f9f9f9;
 }
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
 
